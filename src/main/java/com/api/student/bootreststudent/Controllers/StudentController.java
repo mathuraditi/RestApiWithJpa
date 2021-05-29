@@ -47,7 +47,7 @@ public class StudentController
          return st;
      }
 
-     //delete book handler
+     //delete student handler
      @DeleteMapping("/students/{studentId}")
      public void deleteStudent(@PathVariable("studentId") int studentId)
      {
